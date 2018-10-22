@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  
+}
+.App-logo{
+  display: flex;
+  height: 150px;
+ margin: 0 auto;
+  padding-top: 30px
+}
+/*.App-logo>img{
+  height: 60px;
+}*/
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 160px;
+  align-items: center;
+}
+
+.logo>img{
+  
+  /*animation: App-logo-spin infinite 20s linear;*/
+  height: 80px;
+  
+}
+.section{
+  position: relative;
+  width: 100%;
+  bottom: 100px;
+}
+.section>a>img{
+  height: 50px;
+  margin-left: 10px; 
+}
+.downloadApp{
+  color: white;
+  padding-bottom: 5px;
+}
+
+.App-header {
+ 
+  height: 80px;
+  padding: 20px;
+  
+}
+
+.App-title {
+ 
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
